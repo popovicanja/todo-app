@@ -1,0 +1,144 @@
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.page {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  border: 1px solid #dddde2;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+.header {
+  padding: 24px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: .7px;
+}
+
+.footer {
+  padding: 16px 24px;
+}
+
+.result-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 8px;
+}
+.completed-result {
+  background: #cc84ee61;
+}
+.todo-result {
+  background: #e2dada57;
+}
+.result-label {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 4px;
+  color: gray;
+}
+.result-value {
+  font-size: 18px;
+  letter-spacing: .7px;
+}
+
+.clear-completed-label {
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-size: 13px;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 8px;
+}
+.clear-completed-label:hover {
+  background: #dcdcdc85;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width:100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.modal-main {
+  position:fixed;
+  background: white;
+  width: 344px;
+  height: auto;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+
+ 
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.primaryBtn span, .secondaryBtn span {
+  color: white;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.primaryBtn {
+  background-color: #ca89e9 !important;
+}

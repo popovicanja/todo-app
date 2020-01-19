@@ -1,0 +1,42 @@
+
+  .header {
+    padding: 16px 24px;
+  }
+  .title {
+    text-transform: uppercase;
+    letter-spacing: .7px;
+    font-weight: 500;
+    color: #6a6565;
+  }
+
+  .cancelIcon {
+    cursor: pointer;
+  }
+
+  .content {
+    padding: 0 24px;
+  }
+
+  .actions {
+    padding: 24px;
+  }
+
+  .btn span{
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+  .cancelBtn {
+    margin-right: 16px !important;
+    background-color: #a09393 !important;
+  }
+
+  .saveBtn {
+    background-color: #ca89e9 !important;
+  }
+
+  .mt24 {
+    margin-top: 24px !important;
+  
+  }

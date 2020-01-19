@@ -1,0 +1,18 @@
+.container {
+    overflow-y: auto;
+    min-height: 200px;
+    max-height: 384px;
+    padding: 16px 24px 0;
+    width: 100%;
+}
+
+.noData {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 1px;
+    font-size: 18px;
+    color: dimgray;
+    height: 200px;
+    width: 100%;
+}
